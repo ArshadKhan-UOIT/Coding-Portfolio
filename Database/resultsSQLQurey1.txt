@@ -1,0 +1,56 @@
+Task 1: 
+
+1a:
+
+1	1	1	1	"Claudell"  "Papen" "1972-10-27"    1   "New York City" "New York"  "USA"
+2   2   2   2   "Deanna"    "Knowlton"  "1981-06-11"    2   "Los Angeles"   "California"    "USA"
+3	3	3	3	"Adaline"	"Wann"  "1973-08-26"    3   "Pittsburgh" "Pennsylvania"  "USA"
+4	4	4	4	"Carlota"	"Dilliway"	"1968-04-27"    4   "Reno" "Nevada"  "USA"
+5	5	5	5	"Lars"	"Gaudon"    "1988-11-06"    5   "Richmond" "Virginia"  "USA"
+
+I changed the name of the country to "USA" no "Canada" in my database.
+
+
+1b:
+
+"Taxi"
+
+I changed the first name to "Claudell" and the surname to "Papen" since there was no 
+David Lynch in my database
+
+
+1c:
+
+1	"Bobby"	"Mattiazzi"	35155959.8	2820860128.26	2044724708.06	22716158.64	24609171.86
+2	"Jan"	"Bushnell"	14060918.3	1128226452.21	817804640.51	9085516.44	9842642.81
+3	"Gannon"	"Izakov"	40867646.3	3279157065.81	2376925182.11	26406786.84	28607352.41
+4	"Farris"	"Levis"	41640848.6	3341197628.82	2421895817.42	26906394.48	29148594.02
+5	"Keelia"	"Maciejewski"	38826126.3	3115348641.81	2258187238.11	25087650.84	27178288.41
+
+chaned nothing
+
+
+1d:
+
+4	4	4	4	"Carlota"	"Dilliway"	"1968-04-27"
+
+changed nothing 
+
+
+1e:
+"Laila"	"Comedy"
+"Pontiac Moon"	"Comedy1"
+
+i changed it to actors less than 60. because i dont have comedy and less than 40. Also theres 
+a mistake i made in my database i have genres have a primary key thats why i have the "1" in the 
+comedy also thats why i have the "Conedy%" in the "where". 
+
+
+1f:
+
+"Izakov"	"Mattiazzi"
+"Mattiazzi"	"Izakov"
+
+I changed the eyeColorur to "violet" from "Brown" since there was no 
+2 people with the same eyeColour as violet in my database
+

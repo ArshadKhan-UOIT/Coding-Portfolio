@@ -1,0 +1,42 @@
+
+<!-- 1) -->
+
+<BARS>
+    <BAR><NAME>Joe’s Bar</NAME>
+        <BEER><NAME>Bud</NAME>
+            <PRICE>2.50</PRICE></BEER>
+        <BEER><NAME>Miller</NAME>
+            <PRICE>3.00</PRICE></BEER>
+    </BAR>
+</BARS>
+
+
+<!-- a) -->
+
+xquery version "3.0";
+BARS/BAR/BEER
+
+<!--
+Bud
+			2.50
+Miller
+			3.00 -->
+
+
+<!-- b) -->
+
+xquery version "3.0";
+for $beer in BARS/BAR/BEER
+where $beer/PRICE > 2.5
+order by $beer/PRICE
+return $beer
+
+<!-- 
+Miller
+			3.00 -->
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+<!-- 2) -->
+<Movies>
+	<Movie title="The Edge of Tomorrow" yearOfProduction=2014 budget=178000000 director="Doug Liman" rating=7.9 duration="1:53">
+		<Actors>
+      		<Actor age=58 birthCity="Syracuse" height="1.7 m"><NAME>Tom Cruise</NAME></Actor>
+			<Actor age=37 birthCity="London" height="1.71 m"><NAME>Emily Blunt</NAME></Actor>
+      	</Actors>  
+	</Movie>
+  	<Movie title="Tenet" yearOfProduction=2020 budget=205000000 director="Christopher Nolan" rating=7.7 duration="2:30">
+		<Actors>
+      		<Actor age=34 birthCity="London" height="1.85 m"><NAME>Robert Pattinson</NAME></Actor>
+			<Actor age=36 birthCity="Los Angeles" height="1.75 m"><NAME>John David Washington</NAME></Actor>
+      	</Actors>  
+	</Movie>
+  	<Movie title="Mission Impossible Fallout" yearOfProduction=2019 budget=178000000 director="Christopher McQuarrie" rating=7.7 duration="1:47">
+		<Actors>
+      		<Actor age=58 birthCity="Syracuse" height="1.7 m"><NAME>Tom Cruise</NAME></Actor>
+			<Actor age=37 birthCity="Saint Helier" height="1.85 m"><NAME>Henry Cavill</NAME></Actor>
+      	</Actors>  
+	</Movie>
+</Movies>
+
+
+<!-- 3a) -->
+
+xquery version "3.0";
+for $Actor in Movies/Movie/Actors/Actor
+where $Actor[@age<35]
+order by $Actor/@age 
+return $Actor
+
+<!-- Robert Pattinson -->
+
+<!-- 3b) -->
+
+
+xquery version "3.0";
+for $Movie in Movies/Movie
+where $Movie[@yearOfProduction>=2016] and $Movie[@yearOfProduction<=2018]
+order by $Movie/@title descending
+return $Movie/@title
+
+
+<!-- I have no results for 3b) because I dont have movies year of production ranging from 2016 to 2018 but I did test the values
+for the year being greater than 2016 so i know that it works. Heres an output of the 2016+ i tested
+
+Tenet
+Mission Impossible Fallout  -->
+

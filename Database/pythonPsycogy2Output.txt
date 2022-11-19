@@ -1,0 +1,62 @@
+Done Insert Location
+Done Insert University
+Done Insert Department
+Done Insert Actor     
+Done Insert Award     
+Done Insert Movie     
+Done Insert Cinema    
+Done Insert ActsIn    
+Done Insert Director  
+Done Insert DirectedBy
+Done Insert MovieType    
+Done Insert Genres       
+Done Insert IsAwarded    
+Done Insert MovieFestival
+Done Insert Quote        
+Done Insert Ticket
+Done Insert Location Variable     
+Done Insert University Variable   
+Done Insert Department Variable   
+Done Insert Actor Variable        
+Done Insert Award Variable        
+Done Insert Movie Variable        
+Done Insert ActsIn Variable       
+Done Insert Cinema Variable       
+Done Insert Director Variable     
+Done Insert DirectedBy Variable   
+Done Insert MovieType Variable    
+Done Insert Genres Variable       
+Done Insert IsAwarded Variable    
+Done Insert MovieFestival Variable
+Done Insert Quote Variable        
+Done Insert Ticket Variable       
+
+Average Age
+-----------
+42.0
+
+
+Done Select
+
+title
+-----
+Taxi
+
+
+Done Select Variable
+
+directorID      First Name      Surname         DateOfBirth
+-------------------------------------------------------------
+1                Claudell        Papen           1972-10-27
+2                Deanna          Knowlton                1981-06-11
+3                Adaline         Wann            1973-08-26
+4                Carlota         Dilliway                1968-04-27
+5                Lars    Gaudon                  1988-11-06
+
+Done Select Variable
+
+directorID      First Name      Surname
+-----------------------------------------
+4                Carlota         Dilliway
+
+Done Select Variable

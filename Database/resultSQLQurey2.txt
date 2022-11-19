@@ -1,0 +1,81 @@
+Task 2:
+
+1a:
+
+43.8
+
+
+1b:
+
+1
+
+I just changed the movie title name "Beautiful Minds" to "Taxi" because
+the movie title "Beautiful Minds" is not in my database. Also i do not have 
+multiple actors for the same movie in the first place so it makes sense that
+the asnwer is 1.
+
+
+1c:
+
+2
+
+I just change the "green" eyeColour to "Violet" because i had more than 1 of the actors
+that had "Violet". Also a "green" eyeColour was not in my database.
+
+
+1d:
+
+1
+
+I changed the actor "Brad Pitt" to "Bobby Mattiazzi" because i did not have "Brad Pitt"
+in my database. Also i did not have an actor for multiple movies so it makes sense that the answer is 1.
+
+
+1e:
+
+"Drama  10816091	18929568.500000000000	27043046
+"Comedy"	29866251	30651451.000000000000	31436651
+"Documentary"	32031422	32031422.000000000000	32031422
+
+Because of the error i made when creating the genres table where i made genres 
+a primary key the actual output is:
+
+"Drama1"	10816091	10816091.000000000000	10816091
+"Comedy"	31436651	31436651.000000000000	31436651
+"Comedy1"	29866251	29866251.000000000000	29866251
+"Drama"	27043046	27043046.000000000000	27043046
+"Documentary"	32031422	32031422.000000000000	32031422
+
+but i clean it up for the first one of what its supposed to be.
+
+
+1f:
+
+7.7
+
+Also i changed the "eyeColour" to "violet" and the "location" to "calculate" since it results in more qurey's and also becuse i have 
+no "blue" "eyeColour" or no one is born in "Toronto" in my database.
+
+
+1g:
+
+"Laila"	"USA"
+"Taxi"	"USA"
+"Clownhouse"	"USA"
+"Pontiac Moon"	"USA"
+"Average Little Man, An (Un borghese piccolo piccolo)"	"USA"
+
+I changed the at least 2 to at least 1 becasue i dont have multiple actors per movie in my database 
+
+
+1h:
+
+"Average Little Man, An (Un borghese piccolo piccolo)"	1
+"Pontiac Moon"	1
+"Clownhouse"	1
+"Taxi"	1
+"Laila"	1
+
+so in my database i do not have more than 1 award per movie so that why its all 1 award. The the query syntax is correct 
+for displaying the greatest awards from top down.
+
